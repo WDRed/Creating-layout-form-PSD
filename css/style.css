@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Lato-Bold; 
+    src: url(../font/Lato-Bol.ttf); 
+   }
+
+html{
+	height: 100%;
+}
+body{
+	height: 100%;
+}
+ol,ul{
+	list-style: none;
+}
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+
+	-webkit-box-sizing: border-box;
+		 -moz-box-sizing: border-box;
+		 	 -o-box-sizing: border-box;
+					box-sizing: border-box;
+}
+
+a, a:hover{
+	text-decoration: none;
+}
+
+.clearfix:before,
+.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{clear: both;}
+
+.main-container{
+	width: 1180px;
+	margin: 0 auto;
+}
+#header{
+	position: absolute;	
+	padding:  0;
+	width: 100%;
+	padding-top: 5px;
+}
+.logo{
+	float: left;
+	margin-left: -36px; 
+}
+.menu-bar{
+	float:right;
+	margin-top:25px;
+	padding-top: 15px;
+	margin-right: -20px;
+}
+.menu-bar li{
+	float: left;
+	margin-right: 26px;
+}
+.menu-bar li:last-child{
+	margin-right: 0;
+	font-size: 14px;
+  font-family: "Lato";
+  font-weight: bold;
+	color: #fff;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55)
+}
+.menu-bar a{
+	text-transform: uppercase;
+	font-size: 14px;
+  font-family: "Lato";
+  font-weight: bold;
+	color: #fff;
+	text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+	letter-spacing: 0.8px;
+}
+#home{
+	height: 880px;
+	padding-top: 325px;
+	text-align: center;
+	color: #fff;
+	background: #442222 url(../img/home-bg.png) no-repeat ;
+	-webkit-background-size: cover; 
+		 -moz-background-size: cover;
+			 -o-background-size: cover;
+					background-size: cover;
+}
+#home h3{
+	padding-left: 25px;
+  font-size: 36px;
+  font-family: "Times New Roman";
+  color: rgba(255, 255, 255, 0.702);
+  font-weight: bold;
+  font-style: italic;
+  text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+  letter-spacing: 1.8px;
+}
+/*ЗРОБИТИ ВІДСТАНЬ МІЖ ЛІТЕРАМИ БІЛЬШОЮ*/
+#home h1{
+	text-transform: uppercase;
+	font-size: 100px;
+  font-family: "Lato";
+  font-weight: bold;
+  text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+  letter-spacing: 5px;
+	line-height: 70px;
+}
+.start-btn{
+	background: transparent;
+  width: 280px;
+  height: 70px;
+	border-radius: 2px;
+	border: 4px solid #fff;
+	margin: 33px;
+	margin-bottom: 27px;
+	text-transform: uppercase;
+	font-size: 18px;
+  font-family: "Lato";
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+	letter-spacing: 0.4px;
+	padding-bottom: 7px;
+	padding-left: 3px;
+}
+#home h4{
+	text-transform: uppercase;
+	font-size: 14px;
+  font-family: "Lato";
+  text-shadow: 0px 1px 40px rgba(1, 1, 1, 0.55);
+  letter-spacing: 0.7px;
+}
+#home h4>a{
+	color: #fff;
+	text-decoration: underline;
+}
+#services{
+	width: 100%;
+	padding: 101px 0px;
+}
+.services-wrap{
+	margin: 0px -45px;
+}
+.services-item{
+	float: left;
+	width: 33.33%;
+	padding: 113px 25px 0px;
+}
+#services h4{
+	font-family: "Lato";
+	font-size: 18px;
+	font-weight: bold;
+	text-transform:uppercase;
+	text-align: center;
+	letter-spacing: 0.9px;
+}
+.get-inspired{
+	background: url(../img/get-inspired.png) no-repeat center top;
+}
+.get-rewarded{
+	background: url(../img/get-rewarded.png) no-repeat center top;
+}
+.get-social{
+	background: url(../img/get-social.png) no-repeat center top;
+}
+/*DELETE THIS CLASS*/
+.border{
+	border: 1px solid red;
+}
+
+#mobile-app{
+	height: 880px;
+	background: #f7f7f7;
+	padding-top: 100px;
+}
+#mobile-app img{
+	margin-left: -29px;
+}
+#feedback{
+	height: 460px;
+	background: url(../img/feedback-bg.png) no-repeat;
+	-webkit-background-size: cover; 
+		 -moz-background-size: cover;
+			 -o-background-size: cover;
+					background-size: cover;
+}
